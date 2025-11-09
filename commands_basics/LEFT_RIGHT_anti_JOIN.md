@@ -1,4 +1,4 @@
-# Understanding LEFT ANTI JOIN and RIGHT ANTI JOIN in SQL Database Management Systems: A Guide for Beginners and Professionals
+# Understanding LEFT ANTI JOIN and RIGHT ANTI JOIN in SQL Database Management Systems
 
 ## Abstract
 

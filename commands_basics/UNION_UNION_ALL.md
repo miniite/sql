@@ -1,4 +1,4 @@
-# Understanding UNION and UNION ALL Operators in SQL Database Management Systems: A Comprehensive Guide for Beginners and Professionals
+# Understanding UNION and UNION ALL Operators in SQL Database Management Systems
 
 ## Abstract
 

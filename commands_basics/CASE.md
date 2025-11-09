@@ -106,8 +106,10 @@ CASE statements are standard across SQL DBMS, but syntax and behavior may vary s
 
 The following SQL script demonstrates CASE statements in Microsoft SQL Server, with equivalents for other DBMS, creating a product categorization and sorting solution.
 
-<xaiArtifact artifact_id="5f3b4023-965c-4add-b600-1ba158676844" artifact_version_id="ae4171b2-6ed7-4971-b012-8b928e84d218" title="CaseStatements.sql" contentType="text/sql">
+
 -- Microsoft SQL Server: Using CASE statements for categorization and sorting
+
+```
 -- Simple CASE for price categorization
 SELECT *,
        CASE
@@ -143,6 +145,7 @@ SELECT *,
                END
        END AS ProductGroup
 FROM Products;
+```
 
 -- MySQL Equivalent (identical syntax)
 -- Same as above for all three queries
@@ -154,6 +157,7 @@ FROM Products;
 -- Replace Products table creation with Oracle-compatible syntax if needed
 
 -- SQLite Equivalent
+```
 -- Same CASE syntax, but table creation may use TEXT for strings
 CREATE TABLE Products (
     ProductID INTEGER PRIMARY KEY,
@@ -165,7 +169,7 @@ CREATE TABLE Products (
     Rating REAL
 );
 -- CASE queries remain identical
-</xaiArtifact>
+```
 
 - **Real-World Implementation**: This script supports a retail dashboard, categorizing products for pricing strategies, prioritizing high-demand categories for display, and grouping products for inventory analysis.
 - **Effects if Not Used Properly**: Missing END clauses cause syntax errors, halting execution. Omitting ELSE in the simple CASE assigns NULL to uncategorized products, skewing reports. Incorrect ORDER BY logic disrupts prioritization, affecting user experience.
